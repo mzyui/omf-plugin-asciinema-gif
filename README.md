@@ -34,7 +34,7 @@ omf install https://github.com/mzyui/omf-plugin-asciinema-gif
 1.  Clone this repository to your local machine:
 
     ```bash
-    git clone https://github.com/your-github-username/omf-plugin-asciinema-gif.git ~/.config/omf/bundle/omf-plugin-asciinema-gif # Or any other preferred location
+    git clone https://github.com/mzyui/omf-plugin-asciinema-gif.git ~/.config/omf/bundle/omf-plugin-asciinema-gif # Or any other preferred location
     ```
 
 2.  Restart your `fish` shell or run `fish_update_completions` to load the new function.
