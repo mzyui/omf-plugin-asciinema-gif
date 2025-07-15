@@ -64,7 +64,7 @@ asciinema upload <cast_file>
 To record a session and convert it directly to a GIF:
 
 ```bash
-basciinema gif output.gif
+asciinema gif output.gif
 ```
 
 This will start an `asciinema` recording session. Once you are done, type `exit` or press `Ctrl-D`. The script will then automatically convert the recording to `output.gif`.
