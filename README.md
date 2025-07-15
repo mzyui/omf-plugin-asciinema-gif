@@ -1,5 +1,7 @@
 # asciinema.fish - Asciinema Recording and GIF Conversion Utility
 
+![asciinema.fish in action](example/example.gif)
+
 This is a `fish` shell function that wraps the `asciinema` command, providing extended functionality, primarily for converting `asciinema` recordings into animated GIFs using `agg`.
 
 ## Features
