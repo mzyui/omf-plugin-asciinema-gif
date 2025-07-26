@@ -128,6 +128,11 @@ function asciinema --description "Asciinema recording and GIF conversion utility
                 end
             end
 
+            # Add default theme if not specified
+            if not contains -- "--theme" $agg_opts
+                set -a agg_opts --theme asciinema
+            end
+
             command agg $agg_opts "$temp_cast_file" "$output_gif"
 
             if test $status -eq 0
